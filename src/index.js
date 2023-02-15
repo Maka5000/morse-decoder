@@ -38,7 +38,6 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
-    console.log(expr.length)
     let DivideToLetters = expr.match(/\d{10}\**/g);
 
     let divideToCodes = DivideToLetters.map((v) => {
